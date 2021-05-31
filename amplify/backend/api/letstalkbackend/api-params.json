@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/resources",
+      "lambdaFunction": "letstalkbackend",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/resources"
+    }
+  ],
+  "resourceName": "letstalkbackend",
+  "apiName": "letstalkbackend",
+  "functionArns": [
+    {
+      "lambdaFunction": "letstalkbackend"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-amplify8f7b4443f0944-staging-161156-authRole",
+    "unAuthRoleName": "amplify-amplify8f7b4443f0944-staging-161156-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "letstalkbackend",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

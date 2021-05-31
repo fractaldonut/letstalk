@@ -1,0 +1,27 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplify8f7b4443f0944-staging-161156-authRole",
+      "UnauthRoleArn": "arn:aws:iam::049307427442:role/amplify-amplify8f7b4443f0944-staging-161156-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::049307427442:role/amplify-amplify8f7b4443f0944-staging-161156-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-amplify8f7b4443f0944-staging-161156-deployment",
+      "UnauthRoleName": "amplify-amplify8f7b4443f0944-staging-161156-unauthRole",
+      "StackName": "amplify-amplify8f7b4443f0944-staging-161156",
+      "StackId": "arn:aws:cloudformation:us-east-1:049307427442:stack/amplify-amplify8f7b4443f0944-staging-161156/ec02e600-c22a-11eb-ac68-0a679f4064a3",
+      "AmplifyAppId": "d1baibix3efpd0",
+      "AuthTriggerTemplateURL": ""
+    },
+    "categories": {
+      "auth": {
+        "letstalk6c538dd8": {}
+      },
+      "function": {
+        "letstalkbackend": {
+          "deploymentBucketName": "amplify-amplify8f7b4443f0944-staging-161156-deployment",
+          "s3Key": "amplify-builds/letstalkbackend-4662734675364f337656-build.zip"
+        }
+      }
+    }
+  }
+}
